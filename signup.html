@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASKFM - Registration</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <nav class="d-flex justify-content-between align-items-center mb-5 pb-2 bg-dark w-100">
+        <h1 class="h2 mb-0 fw-bold text-primary py-3 px-5">ASKme</h1>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="#" class="text-primary pe-5 me-5">SignUp</a></li>
+            </ol>
+        </nav>
+    </nav>
+    
+    <div class="container">
+        <!-- Registration Form -->
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <div class="card registration-card p-4 my-5">
+                    <div class="card-body">
+                        <h2 class="h3 mb-4 fw-bold">SignUp</h2>
+                        
+                        <form>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control py-2" id="email" required>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control py-2" id="password" required>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <label for="confirmPassword" class="form-label">Confirm Password</label>
+                                <input type="password" class="form-control py-2" id="confirmPassword" required>
+                            </div>
+                            
+                            <hr class="my-4">
+                            
+                            <button type="submit" class="btn btn-primary btn-register w-100">Register</button>
+                            
+                            <p class="text-center mt-3">Have account already? <a href="./login.html" class="text-primary">Login</a>.</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="mt-5 pt-4 border-top">
+            <div class="d-flex justify-content-center flex-wrap gap-3 mb-3">
+                <a href="#" class="footer-link">Features</a>
+                <a href="#" class="footer-link">FAQ</a>
+                <a href="#" class="footer-link">ASKFM</a>
+                <a href="#" class="footer-link">About</a>
+                <a href="#" class="footer-link">Support</a>
+            </div>
+            <p class="text-center text-muted mb-4">© 2010 – 2026 Privacy – Terms</p>
+        </footer>
+    </div>
+
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
